@@ -24,18 +24,21 @@
         </div>
     </div>
 
-    <!-- 表單 -->
+    <!-- 內容 -->
     <div class="container" style="margin: 0%;">
         <div class="row">
             <div class="col-2" style="background:#b2f0b3;">
                 <div class=" container">
-                    <h3>參數</h3>
+                    <h3>多點吸引疊代</h3>
                     <form>
                         <div class="form-group row">
                             <div class="col">
-                                <p>終點數量：</p>
-                                <input type="number" class="form-control" id="PointNumber" placeholder="請輸入要產生多少個亂數"
+                                <p>吸引點數量(多邊形分布)：</p>
+                                <input type="number" class="form-control" id="PointNumber" placeholder="請輸入要有多少個吸引點"
                                     value="3">
+                                <p>前進百分比：</p>
+                                <input type="number" class="form-control" id="MovingRate" placeholder="請輸入每次步進百分比"
+                                    value="50">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -43,11 +46,13 @@
                                 <button id="step-e0" type="button" class="btn btn-primary">疊代一次</button>
                                 <button id="step-e1" type="button" class="btn btn-primary">疊代十次</button>
                                 <button id="step-e2" type="button" class="btn btn-primary">疊代百次</button>
+                                <button id="step-e3" type="button" class="btn btn-primary">疊代千次</button>
                             </div>
                         </div>
                         <div class="form-group row">
                             <div class="col">
-                                <input type="text" readonly class="form-control" id="outputRandom" placeholder="">
+                                <button id="clear" type="button" class="btn btn-primary">清除畫面</button>
+                                <button id="show" type="button" class="btn btn-primary">顯示端點</button>
                             </div>
                         </div>
                     </form>

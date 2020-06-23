@@ -11,13 +11,6 @@ body {
     margin-bottom: 0px;
 }
 
-footer {
-    text-align: center;
-    color: #666;
-    border-top: 1px solid;
-    padding-top: 30px;
-}
-
 .container {
     max-width: unset;
     padding: 0px;
@@ -26,4 +19,9 @@ footer {
 
 .btn {
     margin: 2px;
+}
+
+.btn-primary {
+    background-color: #00b2ff;
+    border-color: #00b6ff;
 }
