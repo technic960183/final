@@ -1,37 +1,23 @@
-## Welcome to GitHub Pages
+# 期末專題-IFS疊代函數系統生成器
 
-You can use the [editor on GitHub](https://github.com/technic960183/final/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## 介紹
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+&emsp;&emsp;疊代函數系統可以生成很多酷炫的碎形圖片，其核心由機率與映射(函數)兩個數學架構所構成。
 
-### Markdown
+## 使用技術
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+&emsp;&emsp;大部分技術都是老師上課教的，但我自己還透過搜尋學習了以下：
 
-```markdown
-Syntax highlighted code block
+1.如何使用 html 的 Canvas 物件繪製圖片。
+2.全域變數，這樣才能繼續使用上一步的資料。
 
-# Header 1
-## Header 2
-### Header 3
+&emsp;&emsp;老師上課教的：
 
-- Bulleted
-- List
+1.自訂函數"IFS"，這樣就不用重複貼上一樣的程式碼，利於程式修改。
 
-1. Numbered
-2. List
+## 參考資料
 
-**Bold** and _Italic_ and `Code` text
+&emsp;&emsp;
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/technic960183/final/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- 老師上課的範例
+- w3schools.com 的 Canvas Tutorial

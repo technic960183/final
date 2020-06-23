@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');
+
+body {
+    font-family: Arial, "Noto Sans", "Noto Sans TC", sans-serif, "Noto Sans TC", sans-serif;
+}
+
+.jumbotron {
+    background-color: #33df35;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+    color: #666;
+    border-top: 1px solid;
+    padding-top: 30px;
+}
+
+.container {
+    max-width: unset;
+    padding: 0px;
+    margin: 4%;
+}
+
+.btn {
+    margin: 2px;
+}
