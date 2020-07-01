@@ -56,7 +56,7 @@ $(() => {
             ctx.fill();
         }
         ctx.beginPath();
-        ctx.arc(1000, 500, 1, 0, 2 * Math.PI);
+        ctx.arc(center[0], center[1], 1, 0, 2 * Math.PI);
         ctx.stroke();
     })
 })
