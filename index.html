@@ -24,18 +24,34 @@
         </div>
     </div>
 
+    <!-- 說明 -->
+
+    <div id="MainFloating" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span id="close" class="close">&times;</span>
+            <p>　　疊代函數系統可以生成很多酷炫的碎形圖片，其核心由機率與映射(函數)兩個數學架構所構成。此專題探討若存在多個吸引點，並給定每個吸引點特定吸引機率的情況下，由吸引點之幾何中心出發的一動點所行經的軌跡成為的圖形為何？可調整的參數包括：
+            </p>
+            <p> 1. 吸引點數量</p>
+            <p> 2. 吸引點的吸引強度(前進百分比)</p>
+            <p> 3. 各個吸引點的吸引機率</p>
+        </div>
+
+    </div>
+
     <!-- 內容 -->
     <div class="container" style="margin: 0%;">
         <div class="row">
             <div class="col-2" style="background:#b2f0b3;">
                 <div class=" container">
-                    <h3>多點吸引疊代</h3>
+                    <h3>多邊形端點吸引子</h3>
                     <form>
                         <div class="form-group row">
                             <div class="col">
-                                <p>吸引點數量(多邊形分布)：</p>
+                                <p>吸引點數量：</p>
                                 <input type="number" class="form-control" id="PointNumber" placeholder="請輸入要有多少個吸引點"
-                                    value="3">
+                                    value="3" min="1" step="1">
                                 <p>前進百分比：</p>
                                 <input type="number" class="form-control" id="MovingRate" placeholder="請輸入每次步進百分比"
                                     value="50">
@@ -54,6 +70,9 @@
                                 <button id="clear" type="button" class="btn btn-primary">清除畫面</button>
                                 <button id="show" type="button" class="btn btn-primary">顯示端點</button>
                             </div>
+                        </div>
+                        <div class="form-group row" id="PList">
+
                         </div>
                     </form>
                 </div>
@@ -75,8 +94,6 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
     </script>
 
-    <!-- 引用老師寫的數學函式庫 -->
-    <script src="./js/math.js"></script>
     <!-- 引用自己寫的 js -->
     <script src="./js/IFS.js"></script>
 </body>
